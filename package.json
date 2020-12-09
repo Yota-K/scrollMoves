@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "webpack",
+    "webpack:prod": "webpack --mode=production",
+    "webpack:dev": "webpack --mode=development",
     "watch": "webpack -w"
   },
   "devDependencies": {
